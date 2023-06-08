@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"appName": {
+			"value": "arm-demo-deploy11"
+		},
+		"keyVaultName": {
+			"value": "arm-demo-kv11"
+		},
+		"location": {
+			"value": "Canada East"
+		},
+		"storageAccountName": {
+			"value": "armdemoblob11"
+		},
+		"sqlServerName": {
+			"value": "armdemosrv03"
+		},
+		"sqlDatabaseName": {
+			"value": "demoarmdb03"
+		},
+		"administratorLogin":{
+			"value": "BriefCourt"
+		},
+		"administratorLoginPassword":{
+			"value": "P@ssword123456789"
+		}
+	}
+}
